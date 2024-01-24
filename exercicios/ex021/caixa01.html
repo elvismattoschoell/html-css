@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /* Box-Level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray; /*podemos usar um shorthand pra simplificar(como esta sendo mostrado) a ordem sempre deve ser: width, style e color*/
+
+            padding: 10px 10px 10px 10px; 
+            
+            /*Se todas medidas forem iguas, podemos simplesmente escrever apenas o tamanho uma vez (como mostrado nesse exemplo. */
+
+            margin: 20px auto 40px auto; 
+
+            /*Usei outro shorthand. Ordem: top, right, bottom, left (como se fosse no sentido horario de um relógio).
+
+            É possivel colocarmos duas medidas (ex: margin 10px 20px) e nesse exemplo, a primeira medida vale para top e right e a segunda para bottom e left
+            
+            Outra possibilidade: podemos centralizar qualquer lado usando auto no meio da configurção dos pixels. Exemplo: margin: 10px auto 20px auto; (Os lados foram centralizados)
+
+            */
+
+            outline: 5px dashed salmon;
+        }
+
+        a{  /* Inline-Level */
+
+
+            border: 10px solid red;
+
+            padding: 10px;
+
+            /*Usando o comando display: block; fazemos com que o link se torne um block level e se colocarmos inline o inverso ocorre*/
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos ed box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>
