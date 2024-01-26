@@ -15,15 +15,21 @@ header {
 header h1 {
     color: whitesmoke;
     margin: 0px;
-}
+    margin-top: 20px;
+    }
 
 header p {
     color: white;
 }
 
+section {
+    padding: 10px;
+}
+
 section p {
     line-height: 50px;
     font-size: 30px;
+    margin-left: 20px;
 }
 
 section#cordel1 {
@@ -40,6 +46,20 @@ section#cordel2 {
     background-position: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+}
+
+article {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.648);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+   
+}
+
+article p {
+    padding: 0px 5px 0px;
 }
 
 
