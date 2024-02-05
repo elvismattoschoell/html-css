@@ -2,15 +2,34 @@
 
 :root {
     /* Paleta de Cor */
-    --cor1:#5e2129;
-    --cor2:;
-    --cor3:;
-    --cor4:;
-    --cor5:;
+    --cor1:#5e2129; /*Header, nav e footer*/
+    --cor2:#9E2618;
+    --cor3:#D74E4E; /*Cor do fundo*/
+    --cor4:#9E0F23;
+    --cor5:#DB312C; /*Cor para CTA*/
 
 
 
 
+}
+
+
+body {
+    color: white;
+    background-color: var(--cor3);
+    margin: 0px;
+
+}
+
+body a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+body a:hover {
+    background-color: var(--cor5);
+    transition-duration: 1s;
 }
 
 header {
@@ -18,12 +37,14 @@ header {
     display: flex;
 }
 
-header h1 {
-    color: white;
-}
 
 nav p {
     display: inline-block;
+}
+
+section#maispedidas {
+    color: black;
+    background-color: white;
 }
 
 section#maispedidas img {
@@ -31,9 +52,19 @@ section#maispedidas img {
     height: 300px;
 }        
 
+section#historia {
+    background-color: var(--cor2);
+}
+
 section#historia img {
     width: 500px;
     height: 300px;
+    
+}
+
+section#cardapio {
+    color: black;
+    background-color: white;
 }
 
 section#cardapio img {
@@ -41,11 +72,24 @@ section#cardapio img {
     height: 300px;
 }                   
 
+section#cardapio a {
+    background-color: #DB312C;
+}
+
+section#unidades {
+    background-color: var(--cor4);
+}
+
 section#unidades img {
     width: 500px;
     height: 300px;
 
 }    
+
+section#contatos {
+    color: black;
+    background-color: white;
+}
 
 section#contatos img{
     width:700px;
