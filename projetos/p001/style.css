@@ -13,6 +13,9 @@
 
 }
 
+* {
+    margin: 0px;
+}
 
 body {
     color: white;
@@ -40,6 +43,12 @@ header {
 
 nav p {
     display: inline-block;
+}
+
+section#intro {
+    height: 500px;
+    background: url(imagens/introducao/intro.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 section#maispedidas {
@@ -85,6 +94,12 @@ section#unidades img {
     height: 300px;
 
 }    
+
+section#vinhos {
+    height: 500px;
+    background: url(imagens/vinhos/vinhos.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
 
 section#contatos {
     color: black;
