@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    /* Paleta de Cor */
+    /* Paleta de Cores */
     --cor1:#5e2129; /*Header, nav e footer*/
     --cor2:#9E2618;
     --cor3:#D74E4E; /*Cor do fundo*/
@@ -107,8 +107,8 @@ section#contatos {
 }
 
 section#contatos img{
-    width:700px;
-    height:500px;
+    width:500px;
+    height:300px;
 }
 
 footer {
